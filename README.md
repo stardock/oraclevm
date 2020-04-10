@@ -83,8 +83,6 @@ vi /etc/sysctl.conf
 net.core.default_qdisc = fq
 net.ipv4.tcp_congestion_control = bbr
 
-REF: https://www.hostloc.com/thread-652292-1-1.html
-
 //关闭selinux
 vi  /etc/sysconfig/selinux
 SELINUX=disabled
@@ -97,3 +95,6 @@ reboot （成功）
 rpm -qa | grep kernel
 最后，删除不能启动的内核
 yum remove kernel-ml-5.5.7-1.el7.elrepo.x86_64
+
+
+REF: https://www.hostloc.com/thread-652292-1-1.html
