@@ -83,6 +83,8 @@ vi /etc/sysctl.conf
 net.core.default_qdisc = fq
 net.ipv4.tcp_congestion_control = bbr
 
+REF: https://www.hostloc.com/thread-652292-1-1.html
+
 //关闭selinux
 vi  /etc/sysconfig/selinux
 SELINUX=disabled
