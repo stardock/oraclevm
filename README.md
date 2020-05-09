@@ -10,7 +10,7 @@ rpm -ivh kernel-ml-devel-4.15.4-1.el7.elrepo.x86_64.rpm
 rpm -ivh kernel-ml-headers-4.15.4-1.el7.elrepo.x86_64.rpm
 ```  
 
-显示默认启动内核~这个在安装完后，最新安装的内核会自动设置为启动内核~  
+显示默认启动内核-这个在安装完后，最新安装的内核会自动设置为启动内核~  
 
 grubby --default-kernel  
 
